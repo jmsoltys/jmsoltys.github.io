@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* STYLE SECTIONING TAGS */
+  body {
+   background-color: #C1EBDF;
+  }
+  nav {
+    clear: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+  }
+  main {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  /* STYLE TEXT */
+  h1 { /*"Joanna Soltys" & "Portfolio"*/
+    color: #1F242A;
+    font-size: 50px;
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bold;
+  }
+  #name {
+    text-shadow: 2px 2px #0F8B8D;
+  }
+  #portfolio-background {
+    text-shadow: 3px 3px black;
+  }
+  h2 { /*"Hobbies" and portfolio project names*/
+    color: #1F242A;
+    font-size: 32px;
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    clear: right;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  h4 { /*Hobby names*/
+    color: #1F242A;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 25px;
+  }
+  h5 { /*Credits Title*/
+    color: #1F242A;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    clear: left;
+  }
+  h6 { /*Actual links to images in credits*/
+    color: #1F242A;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 5px;
+  }
+  p { /*Portfolio project descriptions*/
+    color: #1F242A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 25px;
+    text-indent: 40px;
+    margin-bottom: 25px;
+  }
+  #intro-text { /*short self-introduction*/
+    color: #1F242A;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-indent: 50px;
+  }
+  .project-titles { /*titles of portfolio projects*/
+    clear: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .hobby-names {
+    clear: left;
+    text-align: center;
+  }
+  
+  /* STYLE IMAGES */
+  
+  /*HOME PAGE IMAGES*/
+  #selfie {
+    max-height: 26%;
+    max-width: 26%;
+    float: right;
+    margin-left: 25px;
+  }
+  .hobby-photos {
+    border-radius: 100%;
+    max-width: 40%;
+    max-height: 10%;
+    border: 5px solid #0F8B8D;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  /*PORTFOLIO PAGE IMAGES*/
+  #portfolio-background {
+    background-image: url("assets/portfolio-background.jpg");
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    height: 125px;
+  }
+  .portfolio-photos {
+    max-width: 50%;
+    float: left;
+    margin-right: 25px;
+    max-height: 20%;
+    margin-bottom: 25px;
+    border: 5px solid #0F8B8D;
+  }
+  #CYOLA-app-photo {
+    max-height: 1%;
+    max-width: 25%;
+  }
+  
+  /* STYLE NAV BAR */
+  ul {
+    list-style-type: none;
+    background-color: #0F8B8D;
+    overflow: hidden;
+    padding: 1em;
+  }
+  li {
+    display: inline;
+  }
+  li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3em;
+    padding: 1em;
+  }
+  li a:hover {
+    background-color: rgb(2, 161, 163);
+  }
+  nav {
+    text-align: center;
+  }
