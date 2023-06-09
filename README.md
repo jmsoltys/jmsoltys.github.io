@@ -1,1 +1,0 @@
-# jmsoltys.github.io
